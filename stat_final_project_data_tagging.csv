@@ -20,11 +20,11 @@ morality_and_cleanliness,ANOVA 1-way,dog;trolley;wallet;plane;resume;kitten,cond
 morality_and_cleanliness,independent samples t-test,dog;trolley;wallet;plane;resume;kitten,condition,,,,vignette response
 morality_and_cleanliness,Regression,dog;trolley;wallet;plane;resume;kitten,dog;trolley;wallet;plane;resume;kitten,,,make sure not to regress a variable with itself,vignette response
 morality_and_cleanliness_long,Repeated Measures ANOVA,type,vignette_response,,,"each IV is a different measure, and its value is the corresponding DV",
-pokedex,independent samples t-test,attack;defense;height_m;hp;percentage_male;sp_attack;sp_defense;speed;weight_kg,is_legendary,,,,
-pokedex,ANOVA 1-way,attack;defense;height_m;hp;percentage_male;sp_attack;sp_defense;speed;weight_kg,type;generation,,,,
-pokedex,ANOVA 2-way,attack;defense;height_m;hp;percentage_male;sp_attack;sp_defense;speed;weight_kg,type;is_legendary;generation,type;is_legendary;generation,,,
-pokedex,Mann Whitney,attack;defense;height_m;hp;percentage_male;sp_attack;sp_defense;speed;weight_kg,is_legendary,,,,
-pokedex,Regression,attack;defense;height_m;hp;percentage_male;sp_attack;sp_defense;speed;weight_kg,attack;defense;height_m;hp;percentage_male;sp_attack;sp_defense;weight_kg,,,,
+pokedex,independent samples t-test,attack;defense;height_m;hp;sp_attack;sp_defense;speed;weight_kg,is_legendary,,,,
+pokedex,ANOVA 1-way,attack;defense;height_m;hp;sp_attack;sp_defense;speed;weight_kg,type;generation,,,,
+pokedex,ANOVA 2-way,attack;defense;height_m;hp;sp_attack;sp_defense;speed;weight_kg,type;is_legendary;generation,type;is_legendary;generation,,,
+pokedex,Mann Whitney,attack;defense;height_m;hp;sp_attack;sp_defense;speed;weight_kg,is_legendary,,,,
+pokedex,Regression,attack;defense;height_m;hp;sp_attack;sp_defense;speed;weight_kg,attack;defense;height_m;hp;sp_attack;sp_defense;weight_kg,,,,
 states,ANOVA 1-way,population;income;illiteracy;life_exp;murders;hs_grad;frost;area,region;division,,,,
 states,ANOVA 1-way,population;income;illiteracy;life_exp;murders;hs_grad;frost,area_group,,,,
 states,ANOVA 2-way,population;income;illiteracy;life_exp;murders;hs_grad;frost,region;division,area_group,,,
